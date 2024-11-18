@@ -1,0 +1,393 @@
+/* General Body and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #2E3A47;
+    padding: 8px 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+	background-color: transparent;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: white;
+	color:#2E3A47;
+}
+
+/* Hamburger Menu Icon */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('Backgroundimage.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #FFD700;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ffcc00;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+#services {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#services p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sunday Church Timings */
+.service-timings {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-timings p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#gallery h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Get Involved Section */
+#get-involved {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+#get-involved h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#get-involved p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Donate Section */
+#donate {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#donate h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#donate p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background-color: #FFD700;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+	text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #ffcc00;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact a {
+    color: #4d79ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #white;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2E3A47;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    /* Hide the navigation menu by default */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #2E3A47;
+        padding: 10px 0;
+    }
+
+    /* Show the hamburger icon on small screens */
+    .hamburger {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    /* Style the links in the dropdown */
+    nav ul li {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    /* Style links when they're displayed */
+    nav ul li a {
+        font-size: 22px;
+        padding: 10px 20px;
+        display: block;
+    }
+
+    /* Show the menu when it's toggled */
+    nav ul.show {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .logo h1 {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    #about h2,
+    #services h2,
+    #gallery h2,
+    #get-involved h2,
+    #donate h2,
+    #contact h2 {
+        font-size: 24px;
+    }
+
+    #about p,
+    #services p,
+    #get-involved p,
+    #donate p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+        padding: 8px 15px;
+       
+        margin: 20px auto;
+        text-align: center;
+		display: grid;           /* Applies grid layout */
+		gap: 8px;                /* Gap between grid items (adjust as needed) */
+		width: 50%;              /* Width equivalent to 6 out of 12 columns */
+		margin: 0 auto;          /* Centers the element horizontally */
+}
+    }
+
+    .gallery-item img {
+        max-width: 100%;
+    }
+
+
+
+    .section-heading {
+        font-size: 24px;
+    }
+	#Contact{
+		padding:0 0;	
+	}
+    footer {
+        font-size: 12px;
+    }
+}
